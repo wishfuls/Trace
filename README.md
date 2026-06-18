@@ -1,1 +1,3 @@
-mainly made by me but there are some things i had to take referance off 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wishfuls/Trace/main/Main.lua"))()
+
+execute this to use the script
