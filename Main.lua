@@ -345,10 +345,10 @@ LeftGroupBox:AddSlider('Background Transparency', {
 
 local LeftGroupBox = Tabs.visuals:AddLeftGroupbox('Menu Settings')
 
-LeftGroupBox:AddToggle('Aura Watermark', { 
-    Text = 'Aura Watermark', 
+LeftGroupBox:AddToggle('Trace Watermark', { 
+    Text = 'Trace Watermark', 
     Default = false, 
-    Tooltip = 'Aura watermark', 
+    Tooltip = 'Trace watermark', 
     Callback = function(Value)
         if Value then
             Library:SetWatermarkVisibility(true)
@@ -363,7 +363,7 @@ LeftGroupBox:AddToggle('Aura Watermark', {
                         FrameTimer = tick()
                         FrameCounter = 0
                     end
-                    Library:SetWatermark(('Aura - Da Hood | %s fps | %s ms'):format(
+                    Library:SetWatermark(('Trace - Da Hood | %s fps | %s ms'):format(
                         math.floor(FPS),
                         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
                     ))
@@ -381,8 +381,8 @@ LeftGroupBox:AddToggle('Aura Watermark', {
 -- wow that was confusing
 
 
-LeftGroupBox:AddToggle('Aura Keybind Window', {
-    Text = 'Aura Keybind Window',
+LeftGroupBox:AddToggle('Trace Keybind Window', {
+    Text = 'Trace Keybind Window',
     Default = false, -- Default value (true / false)
     Tooltip = 'this probably works correctly', -- Information shown when you hover over the toggle
     Callback = function(Value)
