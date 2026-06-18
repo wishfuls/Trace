@@ -4,7 +4,7 @@ local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Aura | Da Hood                                         by Stratxgy',
+    Title = 'Trace | Da Hood                                         by okbyeml',
     Center = true, -- Set Center to true if you want the menu to appear in the center
     AutoShow = true, -- Set AutoShow to true if you want the menu to appear when it is created
     TabPadding = 8,
@@ -15,7 +15,7 @@ local Window = Library:CreateWindow({
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Stratxgy/Aura/refs/heads/main/Modules/alltheloadstrings.lua"))() -- it really is all the loadstrings
-print("hi, it's stratxgy. If it sent an error like: attempt to index nil with 'visible' it's okay and it worked fine. Thanks for using my script.")
+print("hi, it's okbyeml. If it sent an error like: attempt to index nil with 'visible' it's okay and it worked fine. Thanks for using my script.")
 
 
 local Tabs = {
